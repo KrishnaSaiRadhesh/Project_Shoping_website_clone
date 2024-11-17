@@ -1,0 +1,697 @@
+main{
+   padding:20px 10%;
+}
+
+.first-container{
+    display: grid;
+    gap: 2%;
+    /* grid-template-columns: repeat(3,1fr); */
+    grid-template-columns: 1.5fr 1fr 1fr;
+    /* border: 2px solid; */
+}
+
+.sec1-content{
+    text-align: center;
+}
+
+.sec1 img{
+    border-radius: 20px;
+}
+
+.sec1{
+    position: relative;
+    background-color: rgb(12, 219, 12);
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+    line-height: 30px;
+    padding-top:15px;
+  }
+
+#one{
+    border-top-left-radius:50%;
+    border-top-right-radius:50%;
+    height: 56vh;
+    width: 32vw;
+}
+
+
+.button-sec1{
+    background-color: #222222;
+    color: white;
+    padding: 15px;
+    display: inline-block;
+    position: absolute;
+    bottom: 20px;
+    left: 200px;
+    border-radius: 25px;
+    font-weight: 700;
+}
+
+
+.sec1-content h1{
+    font-size: 40px;
+}
+
+.sec2 .sec2-I1{
+    background-image: url('https://i.etsystatic.com/11238098/r/il/1796b6/4720166203/il_794xN.4720166203_lcfk.jpg');
+    height: 47vh;
+    width: 22.5vw;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+.sec2-I1 h2{
+    padding-left:10px;
+}
+
+.sec2-I1 p{
+    padding: 5px 0px 10px 13px;
+}
+
+.sec2-sub .sec2-I2{
+    background-image: url('https://i.etsystatic.com/5738620/r/il/3ca8b0/5256098552/il_200x200.5256098552_gwwi.jpg');
+    width: 11vw;
+    height: 24vh;
+    border-bottom-left-radius:20px;
+    border-bottom-right-radius:20px;
+    display: flex;
+    align-items: end;
+    padding: 0 0 10px 10px;
+}
+
+.sec2-I2 button{
+    padding: 6px;
+    border-radius: 10px;
+    background-color: #fff;
+    border: 1px solid;
+}
+
+.sec2-I2{
+    position: relative;
+}
+
+#heart-s1{
+    position: absolute;
+    top: 10px;
+    right: 15px;
+    background-color: #fff;
+    border-radius: 50%;
+    padding: 5px;
+}
+
+.sec2-sub .sec2-I3{
+    background-image: url('https://i.etsystatic.com/12378024/r/il/95cf7f/3285198830/il_200x200.3285198830_j09p.jpg');
+    width: 11vw;
+    height: 24vh;
+    border-bottom-left-radius:20px;
+    border-bottom-right-radius:20px;
+    display: flex;
+    align-items: end;
+    padding: 0 0 10px 10px;
+}
+
+.sec2-I3 button{
+    padding: 6px;
+    border-radius: 10px;
+    background-color: #fff;
+    border: 1px solid;
+}
+
+.sec2-I3{
+    position: relative;
+}
+
+#heart-s2{
+    position: absolute;
+    top: 10px;
+    right: 15px;
+    background-color: #fff;
+    border-radius: 50%;
+    padding: 5px;
+}
+
+.sec2-sub{
+    display: flex;
+    gap: 5px;
+    margin-top: 6px;
+}
+
+
+.sec3 .sec3-I1{
+    background-image: url('https://i.etsystatic.com/5492298/r/il/ed2a9a/3145324589/il_794xN.3145324589_3wgr.jpg');
+    background-size: cover;
+    height: 47vh;
+    width: 22.5vw;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+.sec3-I1 h2{
+    padding-left:10px;
+}
+
+.sec3-I1 p{
+    padding: 5px 0px 10px 13px;
+}
+
+.sec3-I2{
+    background-image: url('https://i.etsystatic.com/52820403/r/il/a625f7/6386185751/il_200x200.6386185751_mn2n.jpg');
+    width: 11vw;
+    height: 24vh;
+    display: flex;
+    align-items: end;
+    padding: 0 0 10px 10px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    position: relative;
+}
+
+#heart-s3{
+    position: absolute;
+    top: 10px;
+    right: 15px;
+    background-color: #fff;
+    border-radius: 50%;
+    padding: 5px;
+}
+
+.sec3-I2 button{
+    padding: 6px;
+    border-radius: 10px;
+    background-color: #fff;
+    border: 1px solid;
+}
+
+.sec3-I3{
+    background-image: url('https://i.etsystatic.com/15937548/r/il/df8cc1/3924929815/il_200x200.3924929815_auj8.jpg');
+    width: 11vw;
+    height: 24vh;
+    display: flex;
+    align-items: end;
+    padding: 0 0 10px 10px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    position: relative;
+}
+
+#heart-s4{
+    position: absolute;
+    top: 10px;
+    right: 15px;
+    background-color: #fff;
+    border-radius: 50%;
+    padding: 5px;
+}
+
+.sec3-I3 button{
+    padding: 6px;
+    border-radius: 10px;
+    background-color: #fff;
+    border: 1px solid;
+}
+
+.sec3-sub{
+    display: flex;
+    margin-top: 6px;
+    gap: 5px;
+}
+
+/* First-container----- */
+
+.second-container{
+   display: flex;
+   flex-direction: column;
+   /* justify-content: center; */
+   margin-top: 5vh;
+   /* border: 2px solid; */
+}
+
+.second-container .content{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+
+.second-container .images{
+    display: grid;
+    grid-template-columns: repeat(5,0.5fr);
+    gap: 15px;
+}
+
+.img-1{
+    background-image: url('https://i.etsystatic.com/11238098/c/1141/906/590/824/il/1796b6/4720166203/il_340x270.4720166203_lcfk.jpg');
+    /* width: 14vw; */
+    height: 20vh;
+    background-size: cover;
+    display: flex;
+    align-items: end;
+    padding: 0 0 5px 10px;
+}
+
+.img-1 button{
+    padding: 5px;
+    border-radius: 10px;
+    background-color: #fff;
+    border: none;
+}
+
+.img-2{
+    background-image: url('https://i.etsystatic.com/5492298/c/2616/2079/0/201/il/ed2a9a/3145324589/il_340x270.3145324589_3wgr.jpg');
+    /* width: 14vw; */
+    height: 20vh; 
+    background-size: cover;
+    display: flex;
+    align-items: end;
+    padding: 0 0 5px 10px;
+}
+
+.img-2 button{
+    padding: 5px;
+    border-radius: 10px;
+    background-color: #fff;
+    border: none;
+}
+
+.img-3{
+    background-image: url('https://i.etsystatic.com/13475876/r/il/5874e3/4102090640/il_340x270.4102090640_ju5i.jpg');
+     /* width: 14vw; */
+    height: 20vh; 
+    background-size: cover;
+    display: flex;
+    align-items: end;
+    padding: 0 0 5px 10px;
+}
+
+.img-3 button{
+    padding: 5px;
+    border-radius: 10px;
+    background-color: #fff;
+    border: none;
+}
+
+.img-4{
+    background-image: url('https://i.etsystatic.com/5339196/r/il/f1d0f6/656439149/il_340x270.656439149_2drc.jpg');
+    /* width: 14vw; */
+    height: 20vh;
+    background-size: cover;
+    display: flex;
+    align-items: end;
+    padding: 0 0 5px 10px;
+}
+
+.img-4 button{
+    padding: 5px;
+    border-radius: 10px;
+    background-color: #fff;
+    border: none;
+}
+
+.img-5{
+    background-image: url('https://i.etsystatic.com/5611740/c/2248/1785/367/176/il/c00bef/5286230578/il_340x270.5286230578_jd1q.jpg');
+    /* width: 14vw; */
+    height: 20vh;
+    background-size: cover;
+    display: flex;
+    align-items: end;
+    padding: 0 0 5px 10px;
+}
+
+.img-5 button{
+    padding: 5px;
+    border-radius: 10px;
+    background-color: #fff;
+    border: none;
+}
+
+.img-6{
+    background-image: url('https://i.etsystatic.com/11238098/c/1141/906/502/814/il/06c85a/4671934270/il_340x270.4671934270_jvlh.jpg');
+    /* width: 14vw; */
+    height: 20vh; 
+    background-size: cover;
+    display: flex;
+    align-items: end;
+    padding: 0 0 5px 10px;
+}
+
+.img-6 button{
+    padding: 5px;
+    border-radius: 10px;
+    background-color: #fff;
+    border: none;
+}
+
+.img-7{
+    background-image: url('https://i.etsystatic.com/11238098/c/1500/1191/922/1381/il/088c0f/5688379040/il_340x270.5688379040_7q92.jpg');
+    /* width: 14vw; */
+    height: 20vh; 
+    background-size: cover;
+    display: flex;
+    align-items: end;
+    padding: 0 0 5px 10px;
+}
+
+.img-7 button{
+    padding: 5px;
+    border-radius: 10px;
+    background-color: #fff;
+    border: none;
+}
+
+.img-8{
+    background-image: url('https://i.etsystatic.com/11238098/r/il/d803d4/4064154296/il_340x270.4064154296_glw5.jpg');
+    /* width: 14vw; */
+    height: 20vh;
+    background-size: cover;
+    display: flex;
+    align-items: end;
+    padding: 0 0 5px 10px;
+}
+
+.img-8 button{
+    padding: 5px;
+    border-radius: 10px;
+    background-color: #fff;
+    border: none;
+}
+
+.img-9{
+    background-image: url('https://i.etsystatic.com/11238098/c/1500/1192/583/1352/il/beff47/4710065859/il_340x270.4710065859_48tu.jpg');
+    /* width: 14vw; */
+    height: 20vh; 
+    background-size: cover;
+    display: flex;
+    align-items: end;
+    padding: 0 0 5px 10px;
+}
+
+.img-9 button{
+    padding: 5px;
+    border-radius: 10px;
+    background-color: #fff;
+    border: none;
+}
+
+.img-10{
+    background-image: url('https://i.etsystatic.com/11238098/c/1904/1512/4/398/il/96e06f/5712657813/il_340x270.5712657813_6nrx.jpg');
+    /* width: 14vw; */
+    height: 20vh;
+    background-size: cover;
+    display: flex;
+    align-items: end;
+    padding: 0 0 5px 10px;
+}
+
+.img-10 button{
+    padding: 5px;
+    border-radius: 10px;
+    background-color: #fff;
+    border: none;
+}
+
+.second-container .content>p{
+    font-weight: 100;
+    font-family: monospace;
+}
+
+
+.third-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding:  2vh 0px;
+    margin-top: 5vh;
+    /* border: 2px solid; */
+}
+
+.third-content h3{
+    font-size: 30px;
+}
+
+.third-content{
+    display: flex;
+    justify-content: center;
+}
+
+.third-imgs{
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    gap: 15px;
+}
+
+.third-imgs .ti{
+    width: 11vw;
+    height: 25vh;
+    border-radius: 20px;
+    padding-top: 10px;
+}
+
+.ti img{
+    width: 10vw;
+    height: 18vh;
+    border-radius: 50%;
+}
+
+.ti:hover{
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.4),-2px -2px 5px rgba(0, 0, 0, 0.4) ;
+}
+
+
+.fourth-container{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding:5vh 0px;
+    /* border: 2px solid; */
+
+}
+
+.f-img{
+    width: 20vw;
+    height: 50vh;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.f-img>img{
+    width: 15vw;
+    height: 35vh;
+    border-radius: 20px;
+}
+
+
+.fourth-imgs{
+    display: flex;
+    gap: 10px;
+    text-align: center;
+    margin-top: 15px;
+}
+
+
+.f-img:hover{
+    box-shadow: 2px 5px 5px rgba(0, 0, 0, 0.4), -2px -5px 5px rgba(0, 0, 0, 0.4);
+}
+
+.fifth-container{
+    display: flex;
+    gap: 20px;
+    flex-direction: column;
+    align-items: center;
+    padding:  5vh 0vh;
+    /* border: 2px solid; */
+}
+
+.fifth-container>h2{
+    align-self: flex-start;
+}
+
+.fifth-imgs{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    padding: 0px 4vh;
+    text-align: center;
+}
+
+
+
+.f1{
+    border-radius: 20px;
+    padding: 10px;
+}
+
+.f1:hover{
+    box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.2);
+}
+ 
+.fifth-imgs>.f1>img{
+    width: 11vw;
+    height: 30vh;
+    border-radius: 25px;
+    object-fit: cover;
+}
+
+
+.sixth-container{
+    margin-top: 25px;
+    display: flex;
+    flex-direction: column;
+    /* border: 2px solid; */
+}
+
+
+.sixth-imgs>div>img{
+    width: 100%;
+}
+
+.sixth-imgs{
+    scrollbar-width: none;
+    display: flex;
+    gap: 6px;
+    overflow: scroll;
+    scroll-behavior: smooth;
+    margin-top: 25px;
+}
+.sixth-imgs>div{
+    height: 400px;
+    width: 300px;
+    flex-shrink: 0;
+}
+
+
+@media screen and (width<480px) {
+    .first-container .sec2,.sec3{
+        display: none;
+    }
+
+
+    .sec1{
+        width: 80vw;
+    }
+
+    .sec1 #one{
+        width: 80vw;
+    }
+
+    .button-sec1{
+        background-color: #222222;
+        color: white;
+        padding: 15px;
+        display: inline-block;
+        position: absolute;
+        bottom: 20px;
+        left: 140px;
+        border-radius: 25px;
+        font-weight: 700;
+    }
+
+    .second-container{
+        display: flex;
+        flex-direction: column;
+        /* justify-content: center; */
+        margin-top: 5vh;
+        /* border: 2px solid; */
+     }
+     
+     .second-container .content{
+         display: flex;
+         /* align-items: center; */
+         /* justify-content: space-between; */
+         /* margin-bottom: 10px; */
+         height: 10vh;
+         /* border: 2px solid; */
+         padding: 50px;
+         font-size: 12px;
+     }
+     
+     
+     .second-container .images{
+         display: grid;
+         grid-template-columns: repeat(2,0.5fr);
+         gap: 15px;
+     }
+
+     .third-content h3{
+        font-size: 18px;
+     }
+     
+     .third-imgs{
+        margin-top: 20px;
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        gap: 15px;
+    }
+    
+    .third-imgs .ti{
+        width: 13vw;
+        height: 18vh;
+        border-radius: 20px;
+        padding-top: 10px;
+    }
+    
+    .ti img{
+        width: 10vw;
+        height: 10vh;
+        border-radius: 50%;
+    }
+
+    .ti p{
+        font-size: 10px;
+    }
+
+
+    .fourth-imgs{
+        display: grid;
+        grid-template-columns: repeat(2,0.5fr);
+    }
+
+    .f-img{
+        width: 35vw;
+        height: 35vh;
+        padding: 10px;
+    }
+
+    .f-img img{
+        height: 25vh;
+        width: 20vh;
+    }
+
+    .fifth-container .fifth-imgs{
+        display: grid;
+        grid-template-columns: repeat(2,0.5fr);
+    }
+
+    .fifth-imgs .f1{
+        width: 40vw;
+    }
+    .fifth-imgs .f1>img{
+        width: 35vw;
+    }
+
+    .sixth-container h1{
+        font-size: 24px;
+    }
+
+    .sixth-imgs{
+        height: 50vh;
+    }
+}

@@ -1,0 +1,510 @@
+
+footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 5vh;
+}
+
+footer .first-part{
+    background-color: #62b1fb;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    width: 100vw;
+    scrollbar-width: none;
+    /* padding: 3% 5% 3% 5%; */
+    padding: 2%;
+}
+
+.first-part #title{
+    height: 20px;
+}
+
+.fp-input{
+    border: none;
+    height: 8vh;
+    width: 30vw;
+    border-radius: 30px;
+    background-color: #fff;
+    border: 2px solid;
+    display: flex;
+    justify-content: space-between;
+    /* margin-top: 3%; */
+}
+
+.fp-input #email{
+    height: 100%;
+    border: none;
+    outline: none;
+    padding-left: 20px;
+    border-top-left-radius:30px;
+    border-bottom-left-radius: 30px;
+}
+
+.fp-input .fp-button{
+    height: 100%;
+    width: 8vw;
+    border-top-right-radius:30px;
+    border-bottom-right-radius: 30px;
+    background-color: #fff;
+    border: none;
+}
+
+.fp-button:hover{
+    background-color: #222222;
+    color: #fff;
+    cursor: pointer;
+}
+
+
+
+.second-part{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #053ad7;
+    height: 40vh;
+    color: #fff;
+    width: 100vw;
+}
+
+.sp1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #122868;
+    width: 30vw;
+}
+
+.sp1 h1{
+    background-color: orange;
+    padding: 20px 30px;
+    border-radius: 20px;
+}
+
+.sp1 h5{
+    background-color: #053ad7;
+    margin-top: 10px;
+    padding: 20px 30px;
+    border-radius: 20px;
+}
+
+
+.second-part .shop{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding-top: 20px;
+}
+
+.shop .Shop-items{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.Shop-items>span:hover{
+    text-decoration: underline;
+}
+
+
+.second-part .sell{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding-top: 20px;
+}
+
+.sell .sell-items{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.sell-items>span:hover{
+    text-decoration: underline;
+}
+
+.second-part .about{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding-top: 20px;
+}
+
+.about .about-items{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.about-items>span:hover{
+    text-decoration: underline;
+}
+
+
+.second-part .help{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding-top: 20px;
+}
+
+.help .help-items{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.help-items>span:hover{
+    text-decoration: underline;
+}
+
+
+.second-part>.shop,.sell,.about,.help{
+    font-size: 15px;
+}
+
+.sp2icons{
+    display: flex;
+    gap: 15%;
+    justify-content: space-between;
+    padding-top: 2vh;
+    width: 10vw;
+}
+
+
+footer .last-part{
+    display: flex;
+    padding: 20px;
+    gap: 20%;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #222222;
+    color: #fff;
+    width: 100%;
+}
+
+.lp-1{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+
+
+.last-part .lp-2{
+    display: flex;
+    gap: 20px;
+}
+
+.lp-2 a{
+    color: #fff;
+}
+
+
+#img1{
+    border: none;
+} 
+
+.second-partm{
+    display: none;
+}
+
+.secondm{
+    display: none;
+}
+
+.accordion{
+    display: none;
+}
+
+
+.secondmb{
+    display: none;
+}
+
+@media screen and (width>=940px) and (width<1200px) {
+    .lp-1{
+        display: flex;
+        align-items: center;
+        gap: 5px;
+        font-size: 13px;
+    }
+    
+    
+    
+    .last-part .lp-2{
+        display: flex;
+        gap: 20px;
+        font-size: 13px;
+    }
+
+    footer .last-part{
+        display: flex;
+        padding: 20px;
+        gap: 12%;
+        align-items: center;
+        justify-content: center;
+        background-color: #222222;
+        color: #fff;
+        width: 100%;
+    }
+
+    .second-part>.shop,.sell,.about,.help{
+        font-size: 13px;
+    }
+    .second-partm{
+        display: none;
+    }
+
+    .secondmb{
+        display: none;
+    }
+
+
+}
+
+
+
+@media screen and (width>=640px) and (width<940px){
+    .fp-input #email{
+        width: 20vw;
+    }
+
+    .fp-input .fp-button{
+        width: 11vw;
+    }
+    .second-partm{
+        display: block;
+        width: 100%;
+    }
+    .second-partm .spm{
+        display: flex;
+        justify-content: center;
+        background-color: #053ad7;
+        gap: 8%;
+        padding: 20px;
+    }
+
+    .second-partm .sp1{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        height: 50vh;
+    }
+
+    .second-part{
+        display: none;
+    }
+
+    .secondmb{
+        display: none;
+    }
+
+    .secondm{
+        display: flex;
+        align-items: center;
+        background-color: #122868;
+    }
+
+    .secondm>.spm{
+        display: flex;
+        gap: 10%;
+        align-items: center;
+        justify-content: center;
+        width: 100vw;
+        padding: 2%;
+    }
+
+    .spm h1{
+        background-color: orange;
+        padding: 20px 30px;
+        border-radius: 20px;
+    }
+
+    .spm h5{
+        background-color: #053ad7;
+        padding: 20px 30px;
+        border-radius: 20px;
+    }
+
+    .spm{
+        color: #fff;
+    }
+
+    .spm h3{
+        padding-bottom: 10px;
+    }
+
+    .lp-1{
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        font-size: 13px;
+        padding-bottom: 10px;
+    }
+    
+    
+    
+    .last-part .lp-2{
+        display: flex;
+        gap: 20px;
+        font-size: 13px;
+    }
+
+    footer .last-part{
+        display: flex;
+        flex-direction: column;
+        padding: 20px;
+        align-items: center;
+        justify-content: center;
+        background-color: #222222;
+        color: #fff;
+        width: 100%;
+    }
+
+    
+}
+
+
+@media screen and (width<=640px) {
+        .first-part{
+            padding-left: 2%;
+        }
+        .first-part .fp-input{
+             width: 85vw;
+             border: none;
+             margin-top: 15px;
+        }
+
+        .fp-input .fp-button{
+            width: 20vw;
+            outline: none;
+        }
+
+        .second-part{
+            display: none;
+        }
+        
+
+        .secondmb{
+            display: flex;
+            align-items: center;
+            background-color: #122868;
+        }
+    
+        .secondmb>.spm{
+            display: flex;
+            gap: 10%;
+            align-items: center;
+            justify-content: center;
+            width: 100vw;
+            padding: 2%;
+        }
+    
+        .spm h1{
+            background-color: orange;
+            padding: 20px 30px;
+            border-radius: 20px;
+        }
+    
+        .spm h5{
+            background-color: #053ad7;
+            padding: 20px 30px;
+            border-radius: 20px;
+        }
+    
+        .spm{
+            color: #fff;
+        }
+    
+        .spm h3{
+            padding-bottom: 10px;
+        }
+        
+
+        .accordion{
+            display: block;
+            background-color: #053ad7;
+            padding: 10px 0;
+            width: 100%;
+        }
+
+        .accordion li{
+            list-style: none;
+            margin: 20px;
+            padding: 10px;
+            background-color: #053ad7;
+            color: #fff;
+            border-radius: 20px;
+            box-shadow: 6px 6px 10px -1px rgba(0, 0, 0, 0.15), -6px -6px 10px -1px rgba(0, 0, 0, 0.15);
+        }
+
+        .accordion li label{
+            display: flex;
+            align-items: center;
+            padding: 10px;
+            font-size: 20px;
+            font-weight: 500;
+            cursor: pointer;
+        }
+
+        label::before{
+            content: '▾';
+            margin-right: 20px;
+        }
+
+        input[type='checkbox']{
+            display: none;
+        }
+
+        .content{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 0 10px;
+            line-height: 26px;
+            max-height: 0;
+            overflow: hidden;
+            transition: max-height 0.5s, padding 0.5s;
+        }
+
+        .accordion  input[type='checkbox']:checked+label+.content{
+            max-height: 400px;
+            padding: 10px 10px 20px;
+        }   
+        
+        .sp2icons{
+            color: #fff;
+            margin: 20px 30vw;
+            padding: 10px;
+            font-size: 24px;
+            display: flex;
+            gap: 20px;
+        }
+
+        .last-part{
+            display: flex;
+            flex-direction: column;
+            padding: 20px;
+            align-items: center;
+            justify-content: center;
+            background-color: #222222;
+            color: #fff;
+            width: 100%;
+        }
+
+        .lp-1{
+            margin-bottom: 25px;
+            font-size: 14px;
+        }
+
+        .lp-2{
+            font-size: 12px;
+        }
+
+        
+}
