@@ -104,7 +104,15 @@ main{
     background-color: #fff;
     border-radius: 50%;
     padding: 5px;
+    display: none;
+    /* transition: all 5s ease; */
 }
+
+.sec2-I2:hover #heart-s1{
+    display: block;
+}
+
+
 
 .sec2-sub .sec2-I3{
     background-image: url('https://i.etsystatic.com/12378024/r/il/95cf7f/3285198830/il_200x200.3285198830_j09p.jpg');
@@ -135,6 +143,11 @@ main{
     background-color: #fff;
     border-radius: 50%;
     padding: 5px;
+    display: none;
+}
+
+.sec2-I3:hover #heart-s2{
+    display: block;
 }
 
 .sec2-sub{
@@ -184,7 +197,15 @@ main{
     background-color: #fff;
     border-radius: 50%;
     padding: 5px;
+    display: none;
 }
+
+
+.sec3-I2:hover #heart-s3{
+    display: block;
+}
+
+
 
 .sec3-I2 button{
     padding: 6px;
@@ -212,6 +233,13 @@ main{
     background-color: #fff;
     border-radius: 50%;
     padding: 5px;
+    display: none;
+    /* transform: translateY(50px);
+    transition: transform 0.5s; */
+}
+
+.sec3-I3:hover #heart-s4{
+    display: block;
 }
 
 .sec3-I3 button{
@@ -576,6 +604,119 @@ main{
     flex-shrink: 0;
 }
 
+.seventh-container{
+    display: flex;
+    flex-direction: column;
+    margin-top: 5vh;
+}
+
+.scf1{
+    display: flex;
+}
+
+.scf1-content{
+    padding: 10px 20px 10px 10px;
+    margin-right: 23vw;
+    display: flex;
+    flex-direction: column;
+    gap: 8%;
+    justify-content: center;
+}
+
+.scf1-content button{
+    padding: 20px;
+    border-radius: 20px;
+    border: none;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+
+.scf1-imgs{
+    display: flex;
+    gap: 20px;
+}
+
+.scf1-img1{
+    background-image: url('https://i.etsystatic.com/24758479/r/il/53413e/5436814157/il_794xN.5436814157_5s4q.jpg');
+    background-size: cover;
+    width: 18vw;
+    height: 40vh;
+    border-radius: 20px;
+
+}
+
+#scf1-heart{
+   transform: translate(15vw,2vh);
+    background-color: #fff;
+    padding: 5px;
+    border-radius: 50%;
+}
+
+
+
+#sc-b1{
+    transform: translate(0,33vh);
+    padding: 6px;
+    border-radius: 10px;
+    background-color: #fff;
+    border: 1px solid;
+}
+
+
+
+.scf1-img2{
+    background-image: url('https://i.etsystatic.com/6717365/r/il/e62b42/3489206571/il_794xN.3489206571_ajzq.jpg');
+    background-size: cover;
+    width: 18vw;
+    height: 40vh;
+    border-radius: 20px;
+}
+
+.scf2-imgs{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    margin-top: 15px;
+}
+
+.scf2-1{
+    background-image: url('https://i.etsystatic.com/5625256/r/il/cefadf/5430271078/il_794xN.5430271078_np6x.jpg');
+    background-size: cover;
+    width: 18vw;
+    height: 40vh;
+    border-radius: 20px;
+}
+
+.scf2-2{
+    background-image: url('https://i.etsystatic.com/17457594/r/il/9bd897/3247307006/il_794xN.3247307006_i62c.jpg');
+    background-size: cover;
+    width: 18vw;
+    height: 40vh;
+    border-radius: 20px;
+}
+
+.scf2-3{
+    background-image: url('https://i.etsystatic.com/18527364/r/il/a8c6fc/6280486583/il_794xN.6280486583_ftoo.jpg');
+    background-size: cover;
+    width: 18vw;
+    height: 40vh;
+    border-radius: 20px;
+}
+
+.scf2-4{
+    background-image: url('https://i.etsystatic.com/18318628/r/il/156c65/5417894310/il_794xN.5417894310_56q0.jpg');
+    background-size: cover;
+    width: 18vw;
+    height: 40vh;
+    border-radius: 20px;
+}
+
+@media screen and (width>480px) and (width<1400px) {
+    .seventh-container{
+        display: none;
+    }
+}
+
 
 @media screen and (width<480px) {
     .first-container .sec2,.sec3{
@@ -606,18 +747,12 @@ main{
     .second-container{
         display: flex;
         flex-direction: column;
-        /* justify-content: center; */
         margin-top: 5vh;
-        /* border: 2px solid; */
      }
      
      .second-container .content{
          display: flex;
-         /* align-items: center; */
-         /* justify-content: space-between; */
-         /* margin-bottom: 10px; */
          height: 10vh;
-         /* border: 2px solid; */
          padding: 50px;
          font-size: 12px;
      }
@@ -694,4 +829,90 @@ main{
     .sixth-imgs{
         height: 50vh;
     }
+
+    .scf1{
+        width: 83vw;
+    }
+
+    
+
+    .scf1-content{
+        display: flex;
+        flex-direction: column;
+        /* justify-content: center; */
+        font-size: 11px;
+        margin: 0px;
+        padding-right: 0px;
+    }
+    
+    .scf1-content button{
+        padding: 10px;
+        border-radius: 20px;
+        border: none;
+        font-size: 10px;
+        font-weight: 500;
+    }
+    
+    
+    
+    .scf1-img1{
+        background-image: url('https://i.etsystatic.com/24758479/r/il/53413e/5436814157/il_794xN.5436814157_5s4q.jpg');
+        background-size: cover;
+        width: 40vw;
+        height: 40vh;
+        border-radius: 20px;
+        margin-left: 50px;
+    
+    }
+
+    .scf1-img2{
+        display: none;
+    }
+    
+    #scf1-heart{
+       transform: translate(30vw,2vh);
+        background-color: #fff;
+        padding: 5px;
+        border-radius: 50%;
+    }
+
+    .scf2-imgs{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        margin-top: 15px;
+        gap: 10px;
+    }
+
+    
+.scf2-1{
+    background-image: url('https://i.etsystatic.com/5625256/r/il/cefadf/5430271078/il_794xN.5430271078_np6x.jpg');
+    background-size: cover;
+    width: 40vw;
+    height: 40vh;
+    border-radius: 20px;
+}
+
+.scf2-2{
+    background-image: url('https://i.etsystatic.com/17457594/r/il/9bd897/3247307006/il_794xN.3247307006_i62c.jpg');
+    background-size: cover;
+    width: 40vw;
+    height: 40vh;
+    border-radius: 20px;
+}
+
+.scf2-3{
+    background-image: url('https://i.etsystatic.com/18527364/r/il/a8c6fc/6280486583/il_794xN.6280486583_ftoo.jpg');
+    background-size: cover;
+    width: 40vw;
+    height: 40vh;
+    border-radius: 20px;
+}
+
+.scf2-4{
+    background-image: url('https://i.etsystatic.com/18318628/r/il/156c65/5417894310/il_794xN.5417894310_56q0.jpg');
+    background-size: cover;
+    width: 40vw;
+    height: 40vh;
+}
+
 }
